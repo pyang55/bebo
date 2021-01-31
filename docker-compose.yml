@@ -1,0 +1,21 @@
+services:
+  bebo:
+    build: "./backend"
+    env_file:
+      - bebo.env
+    volumes:
+      - type: bind
+        source: "./crontabs"
+        target: "/crontabs"
+    depends_on:
+      - "crontab-ui"
+  crontab-ui:
+    build: "./crontab-ui"
+    env_file:
+      - bebo.env
+    volumes:
+      - type: bind
+        source: "./crontabs"
+        target: "/crontab-ui/crontabs/"
+    ports:
+      - "8000:8000"

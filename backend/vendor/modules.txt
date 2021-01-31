@@ -1,0 +1,26 @@
+# github.com/bwmarrin/discordgo v0.22.0
+## explicit
+github.com/bwmarrin/discordgo
+# github.com/deet/govenmo v0.0.0-20140819142151-9f08e21c8a01
+## explicit
+github.com/deet/govenmo
+# github.com/gorilla/websocket v1.4.0
+github.com/gorilla/websocket
+# github.com/plaid/plaid-go v0.0.0-20201218232658-0eeb7d956529
+## explicit
+github.com/plaid/plaid-go/internal
+github.com/plaid/plaid-go/plaid
+# github.com/radovskyb/watcher v1.0.7
+## explicit
+github.com/radovskyb/watcher
+# github.com/robfig/cron v1.2.0
+## explicit
+github.com/robfig/cron
+# golang.org/x/crypto v0.0.0-20181030102418-4d3f4d9ffa16
+golang.org/x/crypto/internal/subtle
+golang.org/x/crypto/nacl/secretbox
+golang.org/x/crypto/poly1305
+golang.org/x/crypto/salsa20/salsa
+# gopkg.in/robfig/cron.v2 v2.0.0-20150107220207-be2e0b0deed5
+## explicit
+gopkg.in/robfig/cron.v2
